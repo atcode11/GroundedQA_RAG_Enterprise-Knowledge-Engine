@@ -1,6 +1,11 @@
 # GroundedQA: An Enterprise Knowledge Engine
+![Language](https://img.shields.io/badge/Language-Python-blue.svg)
+![AI Task](https://img.shields.io/badge/AI%20Task-RAG-brightgreen.svg)
+![Framework](https://img.shields.io/badge/Framework-LangChain-green.svg)
+![Model Provider](https://img.shields.io/badge/Model%20Provider-OpenAI-purple.svg)
+![Vector DB](https://img.shields.io/badge/Vector%20DB-ChromaDB-orange.svg)
 
-> A Retrieval-Augmented Generation (RAG) system that enables knowledge workers to ask natural language questions and receive accurate, source-grounded answers from internal, proprietary documents.
+A Retrieval-Augmented Generation (RAG) system that enables knowledge workers to ask natural language questions and receive accurate, source-grounded answers from internal, proprietary documents.
 
 This repository contains the implementation of a prototype RAG system using LangChain, OpenAI, and ChromaDB. It demonstrates a core AI product capability: grounding Large Language Model (LLM) responses in factual, verifiable data to build user trust and deliver real business value.
 

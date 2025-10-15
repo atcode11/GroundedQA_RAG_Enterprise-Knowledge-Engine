@@ -1,0 +1,28 @@
+# Python dependencies for the GroundedQA Enterprise Knowledge Engine
+#
+# To install these dependencies, run:
+# pip install -r requirements.txt
+
+# Core AI/LLM orchestration framework
+langchain==0.1.20
+
+# Community-provided LangChain integrations (loaders, vector stores)
+langchain-community==0.0.38
+
+# LangChain integration for OpenAI models (LLMs, Embeddings)
+langchain-openai==0.1.6
+
+# The OpenAI Python client library (dependency for langchain-openai)
+openai==1.23.6
+
+# In-memory vector database for fast prototyping
+chromadb==0.4.24
+
+# PDF document loader library
+pypdf==4.2.0
+
+# Tokenizer used by OpenAI models for efficient text splitting
+tiktoken==0.6.0
+
+# Used for displaying formatted markdown in the notebook
+ipython==8.24.0
